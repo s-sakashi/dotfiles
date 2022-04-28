@@ -1,7 +1,7 @@
 " keymaps " {{{
 "-----------------------------------
-nnoremap <leader>p :Files<CR>
-nnoremap <leader>f :Rg<CR>
+nnoremap <leader><leader> :Files<CR>
+nnoremap <leader>s :Rg<CR>
 nnoremap <leader>h :History<CR>
 nnoremap <silent><leader>ag :Rg <C-R><C-W><CR>
 nnoremap <leader>gs :GFiles?<CR>
